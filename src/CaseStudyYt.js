@@ -283,10 +283,11 @@ const SideBySideText = () => {
             <p className="textpic-subtitle">
               <i>"When I attempted to like the video I was watching, for a moment,
                 I thought that I had already done so"</i>
-              <br/> <b>Junis</b>
+              <br/> <b>~ Junis</b>
               <br/><br/>
               <i>"I often found myself squinting at the screen to get a better
-                view. I also want to keep watching similar content without and distractions"</i> <br/> <b>Temi</b>
+                view. I also want to keep watching similar content without distractions"</i> <br/> 
+                <b>~ Temi</b>
               </p>
           </div>
         </div>

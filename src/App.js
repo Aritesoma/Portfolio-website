@@ -90,7 +90,13 @@ const Projects = ({ onViewCaseStudy, onViewCaseStudyYt }) => {
               <button onClick={onViewCaseStudy} className="cta-button large-cta-button">
                 Read Case Study
               </button>
+              < a href="https://embed.figma.com/proto/EV6FJFwLWr89ppesZ4BFcD/AMCE-Meals?page-id=3%3A2&node-id=150-406&viewport=-548%2C-191%2C0.53&scaling=scale-down&content-scaling=fixed&starting-point-node-id=150%3A397&embed-host=share" target="_blank" rel="noopener noreferrer">
+               <button className="cta-button large-cta-button">
+                View Prototype
+              </button>
+              </a>
           </div>
+          
         </div>
         <div className="project-image-wrapper">
           <img src="/opening.png" alt="My profile" className="project-imagemobile" />

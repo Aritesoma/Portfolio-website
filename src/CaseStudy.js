@@ -36,7 +36,7 @@ const Header = ({ onBackClick }) => {
 
 // Hero Section Component
 const HeroSection = () => (
-  <section className="hero-section-cs1">
+  <section className="hero-section-cs1" id="Hero">
     <div className="container hero-container">
       
         <img
