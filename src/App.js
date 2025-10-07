@@ -124,6 +124,11 @@ const Projects = ({ onViewCaseStudy, onViewCaseStudyYt }) => {
               <button onClick={onViewCaseStudyYt} className="cta-button large-cta-button">
                 Read Case Study
               </button>
+              < a href="https://embed.figma.com/proto/AOtzPMBIXu5pzFoPeuosn9/YT-Shorts-Redesign?page-id=75%3A2&node-id=76-713&starting-point-node-id=76%3A713&embed-host=share" target="_blank" rel="noopener noreferrer">
+               <button className="cta-button large-cta-button">
+                View Prototype
+              </button>
+              </a>
             
           </div>
         </div>
