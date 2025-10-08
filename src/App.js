@@ -167,7 +167,7 @@ const About = () => {
           </center>
             <div className="project-subtitle about-content-text">
               <p>
-                I am a 4th year Computer Science student enthusiatically seeking excellence in crafting clean, intuitive and
+                I am a 4th year Computer Science student enthusiastically seeking excellence in crafting clean, intuitive and
                 user-friendly digital experiences. My journey into UX design
                 began during my sophomore year when I took a UX design internship at Soutech. I instantly
                 fell in love with the process of understanding user needs and crafting solutions that
