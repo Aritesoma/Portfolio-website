@@ -11,7 +11,7 @@ const Header = ({ onBackClickYt }) => {
         <div className="logo-brand">
           <span className="logo">
             {" "}
-            <img src="/Ari.png" alt="logo" />
+            <img src="images/Ari.png" alt="logo" />
           </span>
         </div>
 
@@ -51,7 +51,7 @@ const HeroSection = () => (
       </div>
       <div className="hero-image-container">
         <img
-          src="/fpytui.png"
+          src="images/fpytui.png"
           alt="Business management illustration"
           className="hero-image1"
         />
@@ -82,13 +82,13 @@ const Projects = () => {
          </p>
         </div>
         <div className="project-image-wrapper">
-          <img src="/fpytui.png" alt="My profile" className="textpic-image" />
+          <img src="images/fpytui.png" alt="My profile" className="textpic-image" />
         </div>
       </div>  
       
       <div className="container project-container reverse">
         <div className="project-image-wrapper">
-          <img src="/ytuihmlk.png" alt="My profile" className="textpic-image" />
+          <img src="images/ytuihmlk.png" alt="My profile" className="textpic-image" />
         </div>
         <div className="project-content">
           <h1 className="project-title">
@@ -121,13 +121,13 @@ const Projects = () => {
           </p>
         </div>
         <div className="project-image-wrapper">
-          <img src="/ytuihmcm.png" alt="My profile" className="textpic-image" />
+          <img src="images/ytuihmcm.png" alt="My profile" className="textpic-image" />
         </div>
       </div>
 
       <div className="container project-container reverse">
         <div className="project-image-wrapper">
-          <img src="/ytuihmdes.png" alt="My profile" className="textpic-image" />
+          <img src="images/ytuihmdes.png" alt="My profile" className="textpic-image" />
         </div>
         <div className="project-content">
           <h1 className="project-title">
@@ -155,13 +155,13 @@ const Projects = () => {
           </p>
         </div>
         <div className="project-image-wrapper">
-          <img src="/ytuihmremx.png" alt="My profile" className="textpic-image" />
+          <img src="images/ytuihmremx.png" alt="My profile" className="textpic-image" />
         </div>
       </div>
       
       <div className="container project-container reverse">
         <div className="project-image-wrapper">
-          <img src="/ytuihmsh.png" alt="My profile" className="textpic-image" />
+          <img src="images/ytuihmsh.png" alt="My profile" className="textpic-image" />
         </div>
         <div className="project-content">
           <h1 className="project-title">
@@ -263,8 +263,10 @@ const SideBySideText = () => {
     return (
     <section className="sidebysidetxt-section">
       <div className="container sidebysidetxt-container"></div>
+        <h1 className="textpic-title">
+            Persona <span className="highlight"></span>
+          </h1>
         <div className="sidebysidetxt-content">
-          
           <div className="sidebysidetxt-block">
             <h3>User Interview and Needs</h3>
             <p className="textpic-subtitle">
@@ -414,8 +416,8 @@ const CaseStudyYt = ({ onBackClickYt }) => {
                 and design elements. These sketches served as a foundation for 
                 brainstorming and visualizing different approaches to enhance 
                 the YouTube Shorts desktop experience."
-            imageDesktop="/ytsked.png"
-            imageMobile="/ytske.png"
+            imageDesktop="images/ytsked.png"
+            imageMobile="images/ytske.png"
             altText=" project image"
             imageClass="textpic-image"
         />
@@ -426,8 +428,8 @@ const CaseStudyYt = ({ onBackClickYt }) => {
                 of the redesigned YouTube Shorts desktop interface. It outlines 
                 the structural layout, key interactive elements, and content placement 
                 strategies aimed at enhancing user engagement."
-            imageDesktop="/ytwfm.png"
-            imageMobile="/ytwfm.png"
+            imageDesktop="images/ytwfm.png"
+            imageMobile="images/ytwfm.png"
             altText=" project image"
             imageClass="textpic-image"
         />
@@ -438,8 +440,8 @@ const CaseStudyYt = ({ onBackClickYt }) => {
             subtitle="The wireframes were created using Figma.
                 The wireframes were designed to be simple and intuitive, 
                 with a focus on usability and accessibility."
-            imageDesktop="/fullytui.png"
-            imageMobile="/fullytui.png"
+            imageDesktop="images/fullytui.png"
+            imageMobile="images/fullytui.png"
             imageClass="textpic-image"
             altText="YouTube project image"
         />
@@ -454,8 +456,8 @@ const CaseStudyYt = ({ onBackClickYt }) => {
                 users wanted a full viewing experience on the comments and video description panels.
                 The feedback was
                 used to make further refinements and improvements to the design."
-            imageDesktop="/usertestyt.png"
-            imageMobile="/usertestyt.png"
+            imageDesktop="images/usertestyt.png"
+            imageMobile="images/usertestyt.png"
             imageClass="textpic-image"
             altText="YouTube project image"
         />
@@ -465,8 +467,8 @@ const CaseStudyYt = ({ onBackClickYt }) => {
             highlight="After"
             subtitle="The image below shows a side-by-side comparism of the original desktop view of 
             YouTube Shorts and the updated proposed design. "
-            imageDesktop="/bandaf.png"
-            imageMobile="/bandafmob.png"
+            imageDesktop="images/bandaf.png"
+            imageMobile="images/bandafmob.png"
             imageClass="textpic-image"
             altText="YouTube project image"
         />

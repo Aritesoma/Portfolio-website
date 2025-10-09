@@ -11,7 +11,7 @@ const Header = ({ onBackClick }) => {
         <div className="logo-brand">
           <span className="logo">
             {" "}
-            <img src="/Ari.png" alt="logo" />
+            <img src="images/Ari.png" alt="logo" />
           </span>
         </div>
 
@@ -40,7 +40,7 @@ const HeroSection = () => (
     <div className="container hero-container">
       
         <img
-          src="/opening.png"
+          src="images/opening.png"
           alt="Business management illustration"
           className="hero-image2"
         />
@@ -80,13 +80,13 @@ const Projects = () => {
           </p>
         </div>
         <div className="project-image-wrapper">
-          <img src="/loginflow.png" alt="My profile" className="textpic-image" />
+          <img src="images/loginflow.png" alt="My profile" className="textpic-image" />
         </div>
       </div>  
       
       <div className="container project-container reverse">
         <div className="project-image-wrapper">
-          <img src="/qrcodeflow.png" alt="My profile" className="textpic-image" />
+          <img src="images/qrcodeflow.png" alt="My profile" className="textpic-image" />
         </div>
         <div className="project-content">
           <h1 className="project-title">
@@ -119,13 +119,13 @@ const Projects = () => {
           </p>
         </div>
         <div className="project-image-wrapper">
-          <img src="/topupflow.png" alt="My profile" className="textpic-image" />
+          <img src="images/topupflow.png" alt="My profile" className="textpic-image" />
         </div>
       </div>
 
       <div className="container project-container reverse">
         <div className="project-image-wrapper">
-          <img src="/menuflow.png" alt="My profile" className="textpic-image" />
+          <img src="images/menuflow.png" alt="My profile" className="textpic-image" />
         </div>
         <div className="project-content">
           <h1 className="project-title">
@@ -155,13 +155,13 @@ const Projects = () => {
           </p>
         </div>
         <div className="project-image-wrapper">
-          <img src="/articlesflow.png" alt="My profile" className="textpic-image" />
+          <img src="images/articlesflow.png" alt="My profile" className="textpic-image" />
         </div>
       </div>
       
       <div className="container project-container reverse">
         <div className="project-image-wrapper">
-          <img src="/historyflow.png" alt="My profile" className="textpic-image" />
+          <img src="images/historyflow.png" alt="My profile" className="textpic-image" />
         </div>
         <div className="project-content">
           <h1 className="project-title">
@@ -191,7 +191,7 @@ const Projects = () => {
           </p>
         </div>
         <div className="project-image-wrapper">
-          <img src="/noqr.png" alt="My profile" className="textpic-image" />
+          <img src="images/noqr.png" alt="My profile" className="textpic-image" />
         </div>
       </div>
 
@@ -247,6 +247,9 @@ const SideBySideText = () => {
     return (
     <section id="Sidebyside" className="sidebysidetxt-section">
       <div className="container sidebysidetxt-container"></div>
+        <h1 className="textpic-title">
+            Persona <span className="highlight"></span>
+          </h1>
         <div className="sidebysidetxt-content">
           
           <div className="sidebysidetxt-block">
@@ -375,8 +378,8 @@ const CaseStudy = ({ onBackClick }) => {
             them to cafeteria servers for meal pickup. The process is slow, manual, and prone to errors, highlighting 
             the need for a streamlined digital solution.
             "
-            imageDesktop="/cuf.png"
-            imageMobile="/cufamo.png"
+            imageDesktop="images/cuf.png"
+            imageMobile="images/cufamo.png"
             imageClass="cuf-image"
             altText="AMCE Meals project image"
         />
@@ -401,8 +404,8 @@ const CaseStudy = ({ onBackClick }) => {
               login to meal redemption. Each screen is designed to 
               support quick decision-making and reduce cognitive load, especially during busy shifts.
                "
-            imageDesktop="/ufam1.png"
-            imageMobile="/ufamo.png"
+            imageDesktop="images/ufam1.png"
+            imageMobile="images/ufamo.png"
             imageClass="textpic-image"
             altText="AMCE Meals project image"
         />
@@ -413,8 +416,8 @@ const CaseStudy = ({ onBackClick }) => {
              interactions. These early drafts helped me test assumptions fast and stay flexible. 
              Through multiple iterations, I refined the experience—shaping each screen based on 
              usability goals, and real-world constraints."
-            imageDesktop="/amske.png"
-            imageMobile="/amskem.png"
+            imageDesktop="images/amske.png"
+            imageMobile="images/amskem.png"
             altText="AMCE Meals project image"
             imageClass="textpic-image"
         />
@@ -425,8 +428,8 @@ const CaseStudy = ({ onBackClick }) => {
               I developed low-fidelity wireframes that outline the core 
               structure and flow of the AMCE Meals app. The wireframes were 
               created using Figma."
-            imageDesktop="/wfam.png"
-            imageMobile="/wfamo.png"
+            imageDesktop="images/wfam.png"
+            imageMobile="images/wfamo.png"
             altText="AMCE Meals project image"
             imageClass="textpic-image"
         />
@@ -438,8 +441,8 @@ const CaseStudy = ({ onBackClick }) => {
             frictionless—like second nature during a busy shift. The color 
             palette draws from AMCE's branding. Clean lines, ample white space,
              and intuitive iconography ensure the interface is easy to scan and navigate."
-            imageDesktop="/uiam.png"
-            imageMobile="/uio.png"
+            imageDesktop="images/uiam.png"
+            imageMobile="images/uio.png"
             imageClass="textpic-image"
             altText="AMCE Meals project image"
         />
@@ -452,8 +455,8 @@ const CaseStudy = ({ onBackClick }) => {
              and their functions. To address this, I added text labels below each icon to clarify their purpose.
              Additionally, users wanted direct access to the QR code from the home screen, so I incorporated a 
              prominent QR code button for quick access."
-            imageDesktop="/utam.png"
-            imageMobile="/utam.png"
+            imageDesktop="images/utam.png"
+            imageMobile="images/utam.png"
             imageClass="textpic-image"
             altText="YouTube project image"
         />
@@ -463,8 +466,8 @@ const CaseStudy = ({ onBackClick }) => {
             highlight="Design"
             subtitle="Taking all feedback into consideration, I made some changes to the design
                 to make it more user-friendly."
-            imageDesktop="/finalamui.png"
-            imageMobile="/finalamui.png"
+            imageDesktop="images/finalamui.png"
+            imageMobile="images/finalamui.png"
             imageClass="textpic-image"
             altText="YouTube project image"
         />

@@ -13,7 +13,7 @@ const Header = () => {
         <div className="logo-brand">
           <span className="logo">
             {" "}
-            <img src="/Ari.png" alt="logo" />
+            <img src="images/Ari.png" alt="logo" />
           </span>
         </div>
 
@@ -99,13 +99,13 @@ const Projects = ({ onViewCaseStudy, onViewCaseStudyYt }) => {
           
         </div>
         <div className="project-image-wrapper">
-          <img src="/opening.png" alt="My profile" className="project-imagemobile" />
+          <img src="images/opening.png" alt="My profile" className="project-imagemobile" />
         </div>
       </div>
       <br /> <br /> <br /> <br />
       <div className="container project-container reverse">
         <div className="project-image-wrapper">
-          <img src="fpytui.png" alt="My profile" className="project-imagedesktop" />
+          <img src="images/fpytui.png" alt="My profile" className="project-imagedesktop" />
         </div>
         <div className="project-content">
           <h1 className="project-title">
@@ -150,7 +150,7 @@ const About = () => {
           <div className="about-left-column">
             <div className="about-image-wrapper">
               <img
-                src="/aripic.jpg"
+                src="images/aripic.jpg"
                 alt="Profile picture"
                 className="about-pic"
               />
