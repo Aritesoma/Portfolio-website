@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
-import CaseStudy from "./CaseStudy";
-import CaseStudyYt from "./CaseStudyYt";
+import CaseStudy from ".//components/CaseStudy";
+import CaseStudyYt from ".//components/CaseStudyYt";
 
 // Reusable Header Component
 const Header = () => {
